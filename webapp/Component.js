@@ -2,7 +2,7 @@ sap.ui.define(
     ["sap/fe/core/AppComponent"],
     function (Component) {
         "use strict";
-
+        // component.js
         return Component.extend("uploadexcel.Component", {
             metadata: {
                 manifest: "json"
