@@ -2,8 +2,6 @@ sap.ui.define(["sap/m/MessageBox","uploadexcel/js/Xlsxfull"], function (MessageB
 	return {
 		getExcelData: function (file) {
 			return new Promise(function (resolve, reject) {
-				// Create a File Reader object (changed)
-				// created feature branch (changed)
 				var reader = new FileReader();
 				var excelData = {};
 				reader.onload = function (e) {
