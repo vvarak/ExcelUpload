@@ -4,6 +4,7 @@ sap.ui.define(["sap/m/MessageBox","uploadexcel/js/Xlsxfull"], function (MessageB
 			return new Promise(function (resolve, reject) {
 				// git fetch
 				// git stash
+				// git stash from local
 				var reader = new FileReader();
 				var excelData = {};
 				reader.onload = function (e) {
